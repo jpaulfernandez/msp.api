@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "registry:dt/body-parser#1.16.0+20170321201455",
+    "express": "registry:dt/express#4.0.0+20170118060322",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20170324160323",
+    "jsonwebtoken": "registry:npm/jsonwebtoken#7.1.8+20160811031426",
+    "mime": "registry:dt/mime#0.0.0+20160428043022",
+    "passport": "registry:npm/passport#0.3.0+20161028163825",
+    "passport-jwt": "registry:dt/passport-jwt#2.0.0+20160428045346",
+    "passport-local": "registry:dt/passport-local#1.0.0+20161128184045",
+    "serve-static": "registry:dt/serve-static#1.7.1+20161128184045"
+  },
+  "globalDependencies": {
+    "mongoose": "registry:dt/mongoose#4.7.0+20170322192047",
+    "node": "registry:dt/node#7.0.0+20170322231424"
+  }
+}

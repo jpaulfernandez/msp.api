@@ -1,0 +1,47 @@
+// {
+//     clientId: '12345',
+//     firstName: 'paul',
+//     lastName: 'fernandez',
+//     middleName: 'm',
+//     addressLine1: ' asd',
+//     addressLine2: 'fqwe',
+//     city: 'cabanatuan',
+//     province: 'nueva ecija',
+//     birthday: '01/18/1995',
+//     civilStatus: 'single',
+//     spouse: {
+//         firstName: '',
+//         lastName: '',
+//         middleName: ''
+//     },
+//     business: {
+//         businessName: 'apol',
+//         businessIndustry: 'lending',
+//         businessAddress: 'cabanatuan',
+//         city: 'cabanatuan',
+//         province: 'cabanatuan'
+//     },
+//     documents: [],
+//     signature: '',
+//     notes: '',
+//     verified: true,
+//     status: 'pending',
+//     profilePicture: ''
+// }
+
+{
+    ledgerId: '12345',
+    owner: '12345',
+    loanType: 'personal',
+    loanAmmount: '5000',
+    dateGranted: '01/18/1995',
+    dueDate: new Date(),
+    term: '88',
+    status: 'ongoing',
+    amortization: {
+        principal: '80',
+        interest: '20',
+        savings: '20' 
+    },
+    transactions: []
+}
