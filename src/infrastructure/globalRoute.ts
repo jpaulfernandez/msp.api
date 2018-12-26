@@ -9,7 +9,6 @@ module expressRoute {
         controllerMap.forEach((controller: any) => {
             let a = new controller.default();
             if (a) {
-                console.log("with auth");
                 router.use(extractPathName(controller.default.name), passport.authenticate("jwt", {session: false}), a.router);
             }
         });

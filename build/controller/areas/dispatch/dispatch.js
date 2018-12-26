@@ -22,7 +22,10 @@ class Dispatch extends controller_1.default {
     }
     Dispatch(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
-            res.send(200);
+            console.log(req.body);
+            res.json({
+                status: "command accepted"
+            });
         });
     }
 }

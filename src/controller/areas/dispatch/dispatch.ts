@@ -10,6 +10,7 @@ export default class Dispatch extends Controller {
 
     @post("/")
     public async Dispatch(req: express.Request, res: express.Response, next: express.NextFunction) {
+        console.log(req.body);
         res.json({
             status: "command accepted"
         });
